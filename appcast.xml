@@ -3,20 +3,20 @@
     <channel>
         <title>LocalMeet</title>
         <item>
-            <title>0.1.15</title>
-            <pubDate>Mon, 08 Jun 2026 08:15:34 +0000</pubDate>
+            <title>0.1.16</title>
+            <pubDate>Mon, 08 Jun 2026 08:25:14 +0000</pubDate>
             <link>https://github.com/tarikd/LocalMeet</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.15
+            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.16
 
-Automated LocalMeet build for commit a0107a4.
+Automated LocalMeet build for commit 824a58c.
 
-Bundle version: 15
+Bundle version: 16
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/tarikd/localmeet-appcast/main/releases/LocalMeet-0.1.15-a0107a4.zip" length="3890158" type="application/octet-stream" sparkle:edSignature="F2c8BMuVV4AHdWao+chCu7oQETl4deiMxxDY10nD7NCybCRIr0AcvhF8p0TSUgMsJ+aCk7yGZuRrKE++ik8eCg=="/>
+            <enclosure url="https://raw.githubusercontent.com/tarikd/localmeet-appcast/main/releases/LocalMeet-0.1.16-824a58c.zip" length="3890671" type="application/octet-stream" sparkle:edSignature="1PI+GoerYJ0xHKie8omLfRaOC1v9Z59Yqx+pIB3JZUpJ5dTXzNDhNVGjcgWZcQADXak4ChhhKQU9yuk3UW7jBg=="/>
         </item>
     </channel>
 </rss>
