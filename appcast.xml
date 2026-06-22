@@ -3,20 +3,20 @@
     <channel>
         <title>LocalMeet</title>
         <item>
-            <title>0.1.29</title>
-            <pubDate>Mon, 22 Jun 2026 14:53:13 +0200</pubDate>
+            <title>0.1.30</title>
+            <pubDate>Mon, 22 Jun 2026 15:15:10 +0200</pubDate>
             <link>https://github.com/tarikd/LocalMeet</link>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>0.1.29</sparkle:shortVersionString>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>0.1.30</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.29
+            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.30
 
-Uses a nonisolated callback bridge for Hugging Face OAuth.
+Adds a pyannote gated-model access preflight and precise guidance.
 
-Bundle version: 29
+Bundle version: 30
 ]]></description>
-            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-29-558ab63/LocalMeet-0.1.29-558ab63.zip" length="179012100" type="application/octet-stream" sparkle:edSignature="/pdjotbMGvrm8OPBSsdQT+Bat2cjafM5P2CRHm4ubNnEPR5pFBVC6WNnwl5ebJX58feje7r9qMnm5iBMal08Bg=="/>
+            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-30-95e4453/LocalMeet-0.1.30-95e4453.zip" length="179013568" type="application/octet-stream" sparkle:edSignature="N59alZFqojCe4Jyx8Uo/TkQEbIo6xdxUC/OxCEtHKZZAUFChmDhSDVqGT2KvQbfdbqfDnyw11V18l8rV19juAA=="/>
         </item>
     </channel>
 </rss>
