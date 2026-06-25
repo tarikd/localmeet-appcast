@@ -3,20 +3,24 @@
     <channel>
         <title>LocalMeet</title>
         <item>
-            <title>0.1.31</title>
-            <pubDate>Mon, 22 Jun 2026 16:08:26 +0000</pubDate>
+            <title>0.1.32</title>
+            <pubDate>Thu, 25 Jun 2026 23:12:20 +0000</pubDate>
             <link>https://github.com/tarikd/LocalMeet</link>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>0.1.31</sparkle:shortVersionString>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.31
+            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.32
 
-Automated LocalMeet build for commit 6867baf.
+## Changes since build-31-6867baf
 
-Bundle version: 31
+- Chunk long Parakeet transcriptions (eda05e5)
+- Add Sparkle changelog release notes (1fa1824)
+
+Build: 32
+Commit: eda05e5
 ]]></description>
-            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-31-6867baf/LocalMeet-0.1.31-6867baf.zip" length="176291774" type="application/octet-stream" sparkle:edSignature="Nm3Qxm5Ku2Zm9MyCois7JZW205V3+dNAkxIoRmRG300HafXtpXxZ5fyTuGq4ykF02f+7z722n+VVqmP42H3sBg=="/>
+            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-32-eda05e5/LocalMeet-0.1.32-eda05e5.zip" length="176293389" type="application/octet-stream" sparkle:edSignature="7AKcO/1PYBfwonZ65Qa41VZ/Sq0FZEE3Y4UBlnDSYEmEuTvAMFYZjOYvqpYo9zPL5RDV0HgIdMpmMEaL+xBnDQ=="/>
         </item>
     </channel>
 </rss>
