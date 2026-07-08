@@ -3,23 +3,24 @@
     <channel>
         <title>LocalMeet</title>
         <item>
-            <title>0.1.34</title>
-            <pubDate>Wed, 08 Jul 2026 14:59:31 +0000</pubDate>
+            <title>0.1.35</title>
+            <pubDate>Wed, 08 Jul 2026 15:07:53 +0000</pubDate>
             <link>https://github.com/tarikd/LocalMeet</link>
-            <sparkle:version>34</sparkle:version>
-            <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.34
+            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.35
 
 ## Changes since build-33-9329893
 
+- Update README feature list for the redesigned UI (b0d3626)
 - Redesign app with sidebar-island layout (Direction B) (3b63078)
 
-Build: 34
-Commit: 3b63078
+Build: 35
+Commit: b0d3626
 ]]></description>
-            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-34-3b63078/LocalMeet-0.1.34-3b63078.zip" length="176753624" type="application/octet-stream" sparkle:edSignature="/dAFrxPE1T+47/oe+j04BalxLQNN8aO/m28pcwAX2IDG5KbzXfbecB4XBE1DkcUoY4yInMCScBzcIembeTcFAA=="/>
+            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-35-b0d3626/LocalMeet-0.1.35-b0d3626.zip" length="176753831" type="application/octet-stream" sparkle:edSignature="+P9k+AELePeL9nTnMxgbdK9rokPBGdE2fOHBXFq01oIIev4lkB7oyhkgqnjw0+Bc9s8iTDxCtAkxb1JeoDsaDg=="/>
         </item>
     </channel>
 </rss>
