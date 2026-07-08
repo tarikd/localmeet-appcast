@@ -3,23 +3,23 @@
     <channel>
         <title>LocalMeet</title>
         <item>
-            <title>0.1.33</title>
-            <pubDate>Tue, 30 Jun 2026 10:16:42 +0000</pubDate>
+            <title>0.1.34</title>
+            <pubDate>Wed, 08 Jul 2026 14:59:31 +0000</pubDate>
             <link>https://github.com/tarikd/LocalMeet</link>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>0.1.33</sparkle:shortVersionString>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.33
+            <description sparkle:format="markdown"><![CDATA[# LocalMeet 0.1.34
 
-## Changes since build-32-eda05e5
+## Changes since build-33-9329893
 
-- Improve Parakeet out-of-memory handling and diagnostics (9329893)
+- Redesign app with sidebar-island layout (Direction B) (3b63078)
 
-Build: 33
-Commit: 9329893
+Build: 34
+Commit: 3b63078
 ]]></description>
-            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-33-9329893/LocalMeet-0.1.33-9329893.zip" length="176299088" type="application/octet-stream" sparkle:edSignature="oLkmAUzxRw9VhRIErPN1bdN8pq7YqdWhGQHyotV60og/SkCDCCoGTod+u44nyArqM6PvQ0Jc9R2zImHWbMsuBg=="/>
+            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-34-3b63078/LocalMeet-0.1.34-3b63078.zip" length="176753624" type="application/octet-stream" sparkle:edSignature="/dAFrxPE1T+47/oe+j04BalxLQNN8aO/m28pcwAX2IDG5KbzXfbecB4XBE1DkcUoY4yInMCScBzcIembeTcFAA=="/>
         </item>
     </channel>
 </rss>
