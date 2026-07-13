@@ -3,23 +3,35 @@
     <channel>
         <title>LocaRec</title>
         <item>
-            <title>0.3.40</title>
-            <pubDate>Mon, 13 Jul 2026 00:55:17 +0000</pubDate>
+            <title>0.3.41</title>
+            <pubDate>Mon, 13 Jul 2026 10:38:34 +0000</pubDate>
             <link>https://github.com/tarikd/LocaRec</link>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>0.3.40</sparkle:shortVersionString>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>0.3.41</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# LocaRec 0.3.40
+            <description sparkle:format="markdown"><![CDATA[# LocaRec 0.3.41
 
-## Changes since build-39-d2ebd34
+## Changes since build-40-d1465dc
 
-- Fix the first-run setup dead-end at the model install step (d1465dc)
+- Make the install queue tests independent of which models are installed (6635866)
+- Write up the 0.3.5 changes (03a168a)
+- Let the tab buttons queue jobs and keep finished transcripts from re-running (cb735f1)
+- Add tests for the install queue and launch reconciliation (c14fc96)
+- Drop a deleted recording's queued jobs (500f42f)
+- Add an Activity panel for the download and processing queues (356c3b7)
+- Show queued recordings and allow stacking jobs across recordings (54617b8)
+- Harden the processing queue guards for empty transcripts and mixed jobs (ed89f7b)
+- Queue model installs and processing jobs instead of dropping them (2dc179f)
+- Let a running model download be cancelled (8bcc2d9)
+- Add UserDefaults keys for the install and processing queues (2f6eb17)
+- Add the task-by-task plan for the install and processing queues (3f18b8a)
+- Add the design for queued model installs and processing (75c103e)
 
-Build: 40
-Commit: d1465dc
+Build: 41
+Commit: 6635866
 ]]></description>
-            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-40-d1465dc/LocaRec-0.3.40-d1465dc.zip" length="15544636" type="application/octet-stream" sparkle:edSignature="nNLo2n00CWUd2WxLvfflaCrd/j4v14mI4wG2+YdK4yl0B2uIqrFopu40KJafzkb9HTgqNe6XjGawTzmCEqBWCw=="/>
+            <enclosure url="https://github.com/tarikd/localmeet-appcast/releases/download/build-41-6635866/LocaRec-0.3.41-6635866.zip" length="15647090" type="application/octet-stream" sparkle:edSignature="LcSkNLKK5uKu8y4eEL3wQiGuD7877PoL6VBXLh4aQedCjA3B5L6x+8kW3Fsp4upDLA+GOGztfwOvONXSveG8DA=="/>
         </item>
     </channel>
 </rss>
