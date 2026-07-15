@@ -3,23 +3,28 @@
     <channel>
         <title>LocaRec</title>
         <item>
-            <title>0.3.45</title>
-            <pubDate>Wed, 15 Jul 2026 13:18:01 +0000</pubDate>
+            <title>0.4.0</title>
+            <pubDate>Wed, 15 Jul 2026 13:39:15 +0000</pubDate>
             <link>https://github.com/tarikd/LocaRec</link>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>0.3.45</sparkle:shortVersionString>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# LocaRec 0.3.45
+            <description sparkle:format="markdown"><![CDATA[# LocaRec 0.4.0
 
-## Changes since build-44-02c2973
 
-- Fix system-audio capture saving silence instead of the recording (a210bee)
+### Fixed
 
-Build: 45
-Commit: a210bee
+- System audio was never recorded. A recording set to "System" or "Both" saved only the microphone, with nothing from calls or other apps and no warning that anything was missing. It now captures system audio correctly, so those recordings include what was playing on your Mac.
+
+### Changed
+
+- When system audio cannot be captured, the app now warns you after you stop recording instead of silently saving an empty track.
+
+Build: 46
+Commit: 6d22a51
 ]]></description>
-            <enclosure url="https://github.com/tarikd/locarec-appcast/releases/download/build-45-a210bee/LocaRec-0.3.45-a210bee.zip" length="15668167" type="application/octet-stream" sparkle:edSignature="VpSwSCwm+2Xm158zp5ZvFPoP0n9FseFwPVPfGhflTeRC0hDKMPe/tZQcb7cCmVHuQGSmgmFWtwCgwmAWX9myAg=="/>
+            <enclosure url="https://github.com/tarikd/locarec-appcast/releases/download/v0.4.0/LocaRec-0.4.0-6d22a51.zip" length="15668195" type="application/octet-stream" sparkle:edSignature="1RWs+1EJwwJLBvqN+K01nmwDbKepaFTdYQFRiejQhPVYD3YKsj7wPAqZVOIvr39mAo4Cjc5KB6it7cerni1nCw=="/>
         </item>
     </channel>
 </rss>
