@@ -3,28 +3,24 @@
     <channel>
         <title>LocaRec</title>
         <item>
-            <title>0.5.0</title>
-            <pubDate>Thu, 16 Jul 2026 19:36:16 +0000</pubDate>
+            <title>0.6.0</title>
+            <pubDate>Thu, 16 Jul 2026 21:35:30 +0000</pubDate>
             <link>https://github.com/tarikd/LocaRec</link>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# LocaRec 0.5.0
+            <description sparkle:format="markdown"><![CDATA[# LocaRec 0.6.0
 
 
 ### Added
 
-- Fix speaker labels straight from the transcript. Right-click a speaker's avatar or name to move that line to the right person, or delete the line when it is just noise. Correcting a line rejoins it with the lines around it when they are the same speaker, and a speaker left with nothing drops off the list.
+- Swipe a recording left in the sidebar to bring up a Delete button. It still asks you to confirm before deleting, and the right-click Delete menu still works.
 
-### Changed
-
-- The record and import controls now sit in the sidebar, within reach on every screen, rather than only in the top-right of the detail view.
-
-Build: 47
-Commit: c084f55
+Build: 48
+Commit: 5b6a36f
 ]]></description>
-            <enclosure url="https://github.com/tarikd/locarec-appcast/releases/download/v0.5.0/LocaRec-0.5.0-c084f55.zip" length="15701384" type="application/octet-stream" sparkle:edSignature="/bSFOHxeP2TayYf1rA85rzsFo59SYajBOQrw+koGXYO8rBn5TMlWSaImypYlnVGQSI1cj8zW5HSDQY9rfBSjCw=="/>
+            <enclosure url="https://github.com/tarikd/locarec-appcast/releases/download/v0.6.0/LocaRec-0.6.0-5b6a36f.zip" length="15743282" type="application/octet-stream" sparkle:edSignature="42R7P8+q1UrLsSFZJV38RnU7ko9KrtiKOXTWG9sh4BthiZfpC6/ppN2z5G5gJMvSdWHSdMw2DLnAiElsmUvhCg=="/>
         </item>
     </channel>
 </rss>
